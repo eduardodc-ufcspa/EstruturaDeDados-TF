@@ -7,5 +7,6 @@ if (cp.fieldNome.getText().isEmpty() ||  cp.fieldCpf.getText().isEmpty() || cp.f
 } else {
   Paciente novoPaciente = new Paciente (cp.fieldNome.getText(), cp.fieldCpf.getText(), Integer.parseInt(cp.fieldNascimento.getText()));
   listaPacientes.addBegin(novoPaciente);
+  JOptionPane.showMessageDialog(null, "Paciente adicionado com sucesso!");
   cp.dispose();
 }
