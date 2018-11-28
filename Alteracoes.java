@@ -18,3 +18,7 @@ public void actionPerformed(ActionEvent e) {
     cp.dispose();
   }
 }
+
+/*
+  Precisa fazer o teste de -> Se não existe paciente com o CPF informado, direcionar para a página de cadastro de paciente.
+*/
